@@ -27,7 +27,7 @@ let messages = {
 let notifications = {
 	"Welcome": {
 		title: "Welcome",
-		body: "This is the Monogatari VN Engine",
+		body: "This is a demo",
 		icon: ""
 	}
 };
@@ -39,9 +39,6 @@ let particles = {
 
 // Define the music used in the game.
 const music = {
-	"1": {
-		"Name": "1",
-	}
 
 };
 
@@ -81,8 +78,8 @@ const characters = {
 let script = {
 	// The game starts here.
 	"Start": [
+	
 		"notify Welcome",
-		"1"
 		{
 			"Input": {
 				"Text": "What is your name?",
@@ -98,7 +95,6 @@ let script = {
 		},
 
 		"h Hi {{player.Name}} 你妈死了！！！",
-
 		{
 			"Choice": {
 				"Dialog": "h 你想要你妈复活吗？",
