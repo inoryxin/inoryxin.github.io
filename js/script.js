@@ -93,7 +93,7 @@ let script = {
 			}
 		},
 
-		"h Hi {{player.Name}} Welcome to Monogatari!",
+		"h Hi {{player.Name}} 你妈死了！！!",
 
 		{
 			"Choice": {
