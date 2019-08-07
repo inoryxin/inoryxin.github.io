@@ -39,6 +39,9 @@ let particles = {
 
 // Define the music used in the game.
 const music = {
+	"1": {
+		"Name": "1",
+	}
 
 };
 
@@ -79,6 +82,7 @@ let script = {
 	// The game starts here.
 	"Start": [
 		"notify Welcome",
+		"1"
 		{
 			"Input": {
 				"Text": "What is your name?",
