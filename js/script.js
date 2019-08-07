@@ -93,11 +93,11 @@ let script = {
 			}
 		},
 
-		"h Hi {{player.Name}} 你妈死了！！!",
+		"h Hi {{player.Name}} 你妈死了！！！",
 
 		{
 			"Choice": {
-				"Dialog": "h Have you already read some documentation?",
+				"Dialog": "h 你想要你妈复活吗？",
 				"Yes": {
 					"Text": "Yes",
 					"Do": "jump Yes"
@@ -113,19 +113,17 @@ let script = {
 	"Yes": [
 
 		"h That's awesome!",
-		"h Then you are ready to go ahead and create an amazing Game!",
-		"h I can't wait to see what story you'll tell!",
+		"h 你妈成功的复活了！",
+		"h 简直不敢相信！真神奇！",
 		"end"
 	],
 
 	"No": [
 
-		"h You can do it now.",
+		"h 你妈死透了.",
 
-		"display message Help",
+		"你真是个不孝子",
 
-		"h Go ahead and create an amazing Game!",
-		"h I can't wait to see what story you'll tell!",
 		"end"
 	]
 };
